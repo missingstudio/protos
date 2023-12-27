@@ -1,0 +1,21 @@
+version: v1
+managed:
+  enabled: true
+  go_package_prefix:
+    default: github.com/missingstudio/protos/pkg
+    except:
+      - buf.build/googleapis/googleapis
+
+plugins:
+  - plugin: buf.build/connectrpc/go:v1.14.0
+    out: pkg
+    opt: paths=source_relative
+
+  - plugin: buf.build/protocolbuffers/go:v1.32.0
+    out: pkg
+    opt: paths=source_relative
+
+  - plugin: buf.build/grpc-ecosystem/gateway:v2.18.1
+    out: pkg
+    opt:
+      - paths=source_relative
