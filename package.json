@@ -1,0 +1,19 @@
+{
+  "name": "@missingstudio/protos",
+  "version": "0.0.1",
+  "description": "Protobuf definition and generated code for Missing studio - An AI studio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missingstudio/protos.git"
+  },
+  "author": "Missing studio",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/missingstudio/protos/issues"
+  },
+  "homepage": "https://github.com/missingstudio/protos#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@bufbuild/protobuf": "^1.7.2"
+  }
+}

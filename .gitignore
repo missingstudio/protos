@@ -1,0 +1,7 @@
+node_modules/
+/target
+.vscode/
+/obj
+/bin
+.packages
+build/
